@@ -1,0 +1,1 @@
+export default {"a":"https://poe.game.qq.com/image/Art/2DItems/Gems/","b":"https://poe.game.qq.com/image/Art/2DItems/Gems/Support/","c":".png?scale=1"}//a:图片路径左边,b:辅助图片路径左边,c:图片路径右边

@@ -1,0 +1,85 @@
+
+
+.itembox-gem {
+    color: grey;
+    width: 100%;
+    background-color: #000;
+	/* 字体 */
+    font-family: FontinSmallCaps,"Fontin SmallCapsa","Helvetica Neue",Helvetica,Arial,"微軟正黑體",sans-serif;
+	/* 文本对齐 */
+    text-align: center
+}
+
+.TitleGemBar {
+    background: url(http://web.poecdn.com/image/Art/2DArt/UIImages/InGame/ItemsHeaderGemMiddle.png?scale=1) top left repeat-x;
+	/* 相对定位 */
+    position: relative;
+    height: 34px
+}
+
+.TitleGemBarL {
+    background: url(http://web.poecdn.com/image/Art/2DArt/UIImages/InGame/ItemsHeaderGemLeft.png?scale=1) top left no-repeat;
+	/* 距离左边0像素 */
+    left: 0
+}
+
+.TitleGemBarR {
+	/* 背景图 */
+    background-image: url(http://web.poecdn.com/image/Art/2DArt/UIImages/InGame/ItemsHeaderGemRight.png?scale=1);
+	/* 距离右边边0像素 */
+    right: 0
+}
+
+.TitleGemBarL,.TitleGemBarR {
+    height: 34px;
+    width: 29px;
+	/*绝对定位*/
+    position: absolute
+}
+
+.TextGem {
+    color: #1ba29b
+}
+
+.ItemName,.ItemType {
+    font-size: 18px;
+	/* 相对定位 */
+    position: relative;
+    top: 4px
+}
+
+.itemboximage,.itemboxstatsgroup {
+    display: block
+}
+
+.FenGeXianTiao {
+    background: url(http://web.poecdn.com/image/Art/2DArt/UIImages/InGame/ItemsSeparatorGem.png?scale=1) center no-repeat;
+    position: relative;
+    height: 7.91px;
+    margin: 1px 0
+}
+
+/* 相对定位 */
+.XiangDuiDingWei {
+    position: relative
+}
+
+.mod-value {
+    color: #0cc
+}
+
+.text-mod {
+    color: #88f
+}
+
+.text-gem {
+    color: #1ba29b
+}
+
+.text-value {
+    color: #fff
+}
+
+.item_magic,A.item_magic {
+    color: #88f
+}

@@ -1,0 +1,13 @@
+{
+	"pages": [
+		"pages/index/index",
+		"pages/logs/logs",
+		"pages/skillGemList/skillGemList",
+		"pages/skillInfo/skillInfo"
+	],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#000",
+		"navigationBarTitleText": "POE数据库"
+	}
+}

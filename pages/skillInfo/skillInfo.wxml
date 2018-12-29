@@ -1,0 +1,74 @@
+<!--pages/skillInfo.wxml-->
+<view class="itembox-gem">
+
+    <!-- 中文名 背景纹理-->
+    <view class="TitleGemBar">
+        <view class="TitleGemBarL"></view>
+        <view class="TitleGemBarR"></view>
+        <view class="TextGem">
+            <view class="ItemName">{{zwm}}</view>
+        </view>
+    </view>
+
+    <span class="itemboxstats">
+
+        <span class="itemboxstatsgroup">
+			<view>火焰, 辅助</view>
+			
+			<view>
+				<text>等级: </text>
+            	<text class="text-value">1–20</text>
+			</view>
+            
+			<view>
+				<text>魔力消耗倍率: </text>
+            	<text class="text-value">120%</text>
+			</view>
+
+        </span>
+
+        <!--分割线条-->
+        <view class="FenGeXianTiao"></view>
+
+        <span class="itemboxstatsgroup">需求等级
+            <span class="text-value">8</span>
+        </span>
+
+        <!--分割线条-->
+        <view class="FenGeXianTiao"></view>
+
+        <span class="itemboxstatsgroup">
+            <view class="text-gem">辅助任意击中敌人的技能</view>
+            <view>每1%品质:</view>
+
+            <span class="item_magic">被辅助技能造成的火焰伤害提高
+                <span class="mod-value">0.5</span>%
+
+            </span>
+        </span>
+
+        <!--分割线条-->
+        <view class="FenGeXianTiao"></view>
+
+        <span class="itemboxstatsgroup text-mod">被辅助技能额外获得
+            <span class="mod-value">(25–44)</span>
+            % 物理伤害，并转化为火焰伤害
+        </span>
+
+    </span>
+
+    <!--分割线条-->
+    <view class="FenGeXianTiao"></view>
+
+    <!--技能宝石图标-->
+    <view class="itemboximage">
+        <image class="XiangDuiDingWei" src="{{bstb}}" style='width: 50px; height: 50px; top: 10px' />
+    </view>
+
+    <!--提示-->
+    <span class="itemboxstatsgroup">{{ts}}</span>
+
+    <!--英文名-->
+    <span class="itemboxstatsgroup">{{ywm}}</span>
+
+</view>
