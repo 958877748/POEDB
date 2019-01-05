@@ -24,7 +24,7 @@ Page({
      * 点击技能触发
      */
     itemclick: function(eve) {
-        let skillName = eve.currentTarget.dataset.name
+        let skillName = eve.target.dataset.name
 		console.log(skillName)
         wx.navigateTo({
 			url: '../skillInfo/skillInfo?skillName=' + skillName,

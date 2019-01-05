@@ -3,7 +3,9 @@ const util = require('./utils/util.js')
 //app.js
 App({
     onLaunch: function() {
-        // 展示本地存储能力
+		//let canvas = wx.createCanvasContext('canvas', this)
+		
+		// 展示本地存储能力
         var logs = wx.getStorageSync('logs') || []
 		// 加入一个新日期到 logs 数组第一位
         logs.unshift(Date.now())
@@ -20,11 +22,11 @@ App({
 		getSettingPar.success = getSettingSuccess
 		wx.getSetting(getSettingPar)
 
-		let data = {}
-		data.name = '小磊'
-		data.sex = '男'
-		data.desc = '开发人员'
-		db.add('userInfo1', data, dbAddSuccess)
+		// let data = {}
+		// data.name = '小磊'
+		// data.sex = '男'
+		// data.desc = '开发人员'
+		// db.add('userInfo1', data, dbAddSuccess)
     },
     globalData: {
         userInfo: null
